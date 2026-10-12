@@ -1,0 +1,13 @@
+{
+  "name": "renwei",
+  "owner": {
+    "name": "mol"
+  },
+  "plugins": [
+    {
+      "name": "renwei",
+      "source": "./",
+      "description": "中文小说全流程写作、去 AI 味、文风学习与审稿。"
+    }
+  ]
+}

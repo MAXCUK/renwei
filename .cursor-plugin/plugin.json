@@ -1,0 +1,13 @@
+{
+  "name": "renwei",
+  "displayName": "人味 · 中文小说写作",
+  "description": "让 AI 写出像人写的中文小说：立项、大纲、细纲、正文、去 AI 味、文风学习、审稿、断点续写的完整 skill 套件，附 AI 腔检测和文风指纹脚本。",
+  "version": "1.0.0",
+  "author": {
+    "name": "mol"
+  },
+  "license": "MIT",
+  "keywords": ["novel", "fiction", "chinese", "writing", "de-ai", "小说", "网文", "去AI味"],
+  "category": "writing",
+  "skills": "./skills/"
+}

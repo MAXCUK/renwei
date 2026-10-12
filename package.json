@@ -1,0 +1,18 @@
+{
+  "name": "renwei",
+  "version": "1.0.0",
+  "private": true,
+  "description": "人味：让 AI 写出像人写的中文小说。Cursor、Claude Code、Codex 等 agent 通用的中文小说写作 skill 套件。",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test",
+    "validate": "node scripts/validate.mjs",
+    "sync": "node scripts/sync-shared.mjs",
+    "presets": "node scripts/build-presets.mjs",
+    "check": "node scripts/sync-shared.mjs --check && node scripts/build-presets.mjs --check && node scripts/validate.mjs && node --test"
+  }
+}

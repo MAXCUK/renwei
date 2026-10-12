@@ -1,0 +1,16 @@
+{
+  "name": "renwei",
+  "owner": {
+    "name": "mol"
+  },
+  "metadata": {
+    "description": "人味：中文小说写作 skill 套件"
+  },
+  "plugins": [
+    {
+      "name": "renwei",
+      "source": "./",
+      "description": "中文小说全流程写作、去 AI 味、文风学习与审稿。"
+    }
+  ]
+}
