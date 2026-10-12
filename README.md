@@ -1,7 +1,5 @@
 # 人味 renwei
 
-[![CI](https://github.com/MAXCUK/renwei/actions/workflows/ci.yml/badge.svg)](https://github.com/MAXCUK/renwei/actions/workflows/ci.yml)
-
 让 AI 写出像人写的中文小说。
 
 一套给 Cursor、Claude Code、Codex 等 AI 助手用的中文小说写作 skill：从立项、大纲、细纲到正文、去 AI 味、文风学习、审稿、断点续写，整套流程落在你自己的文件夹里；配套的检测脚本把“AI 腔”量化成一个分数，改没改好一跑就知道。
