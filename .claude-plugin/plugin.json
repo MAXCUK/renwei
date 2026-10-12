@@ -5,6 +5,8 @@
   "author": {
     "name": "mol"
   },
+  "homepage": "https://github.com/MAXCUK/renwei",
+  "repository": "https://github.com/MAXCUK/renwei",
   "license": "MIT",
   "keywords": ["novel", "fiction", "chinese", "writing", "de-ai"]
 }

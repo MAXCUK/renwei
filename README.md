@@ -53,7 +53,7 @@ AI 腔指数 0（自然）· 超额：高 0 · 中 0 · 低 0
 **用 Skills CLI（推荐，Cursor、Claude Code、Codex 等通用）：**
 
 ```bash
-npx skills add <GitHub用户名>/<仓库名> -a cursor -g
+npx skills add MAXCUK/renwei -a cursor -g
 ```
 
 它会列出四个 skill 让你选，建议全装，它们会互相调用。`-g` 表示装到全局：新版 Skills CLI 默认放在 `~/.agents/skills/`（Windows 上是 `%USERPROFILE%\.agents\skills\`），Cursor 和 Codex 都会读这个目录。装给 Claude Code 就把 `-a cursor` 换成 `-a claude-code`。
@@ -63,7 +63,7 @@ npx skills add <GitHub用户名>/<仓库名> -a cursor -g
 **Claude Code 插件：**
 
 ```text
-/plugin marketplace add <GitHub用户名>/<仓库名>
+/plugin marketplace add MAXCUK/renwei
 /plugin install renwei@renwei
 ```
 
